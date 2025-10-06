@@ -3,14 +3,14 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    name: "Reuni",
-    description: "Plataforma completa de inscrições para eventos cristãos, com gestão de participantes e pagamentos.",
-    url: "https://reuni.orkae.com.br",
-  },
-  {
     name: "Mannai",
     description: "Assistente inteligente de nutrição com IA para orientação alimentar personalizada.",
     url: "https://mannai.orkae.com.br",
+  },
+  {
+    name: "Reuni",
+    description: "Plataforma completa de inscrições para eventos cristãos, com gestão de participantes e pagamentos.",
+    url: "https://reuni.orkae.com.br",
   },
 ];
 
@@ -18,9 +18,15 @@ const Projects = () => {
   return (
     <section className="py-32 bg-secondary/30" id="cases">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          Projetos / <span className="gradient-text">Cases</span>
-        </h2>
+        <div className="text-center mb-16 space-y-4">
+          <h2 className="text-4xl md:text-5xl font-bold">
+            Nossos <span className="gradient-text">Produtos</span>
+          </h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            Além destes produtos próprios, desenvolvemos soluções sob medida para diversos clientes, 
+            com projetos customizados que não podemos expor publicamente.
+          </p>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {projects.map((project, index) => (

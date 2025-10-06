@@ -1,4 +1,4 @@
-import { Lightbulb, Settings, Palette, Cloud } from "lucide-react";
+import { Lightbulb, Settings, Palette, Cloud, Layers } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
@@ -11,6 +11,11 @@ const services = [
     icon: Settings,
     title: "APIs e plataformas",
     description: "Arquitetura escalável e segura",
+  },
+  {
+    icon: Layers,
+    title: "Software como Serviço",
+    description: "Produtos SaaS completos e escaláveis",
   },
   {
     icon: Palette,
@@ -32,7 +37,7 @@ const Services = () => {
           O que <span className="gradient-text">fazemos</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {services.map((service, index) => (
             <Card 
               key={index} 

@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
     <section className="py-32 bg-background">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          Por que escolher a <span className="gradient-text">Orkae</span>
+          Por que escolher a <span className="gradient-text">ORKAE</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">

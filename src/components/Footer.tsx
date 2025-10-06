@@ -41,7 +41,7 @@ const Footer = () => {
 
             <div className="flex justify-center gap-6 mb-8">
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/company/orkae"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
@@ -49,7 +49,7 @@ const Footer = () => {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/orkae"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"

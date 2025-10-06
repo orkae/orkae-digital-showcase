@@ -25,7 +25,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card 
               key={index}
-              className="bg-card/50 backdrop-blur border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-105 overflow-hidden group"
+              className="bg-card/50 backdrop-blur border-border/50 hover:border-accent/50 transition-all duration-300 hover:scale-105 overflow-hidden group"
             >
               <div className="h-48 overflow-hidden">
                 <img 

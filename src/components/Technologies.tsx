@@ -20,7 +20,7 @@ const Technologies = () => {
           {technologies.map((tech, index) => (
             <div
               key={index}
-              className="px-8 py-4 bg-card/50 backdrop-blur border border-border/50 rounded-lg hover:border-primary/50 transition-all duration-300 hover:scale-105"
+              className="px-8 py-4 bg-card/50 backdrop-blur border border-border/50 rounded-lg hover:border-accent/50 transition-all duration-300 hover:scale-105"
             >
               <span className="text-lg font-medium text-foreground">{tech}</span>
             </div>

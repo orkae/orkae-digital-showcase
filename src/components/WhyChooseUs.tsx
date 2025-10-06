@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
               key={index}
               className="text-center space-y-4 p-8 rounded-lg hover:bg-card/30 transition-all duration-300"
             >
-              <reason.icon className="w-16 h-16 text-primary mx-auto" />
+              <reason.icon className="w-16 h-16 text-accent mx-auto" />
               <h3 className="text-2xl font-bold">{reason.title}</h3>
               <p className="text-muted-foreground text-lg">{reason.description}</p>
             </div>

@@ -15,25 +15,25 @@ const Footer = () => {
             <nav className="flex flex-wrap justify-center gap-6 mb-8">
               <button 
                 onClick={() => scrollToSection('sobre')}
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-accent transition-colors"
               >
                 Sobre
               </button>
               <button 
                 onClick={() => scrollToSection('servicos')}
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-accent transition-colors"
               >
                 Serviços
               </button>
               <button 
                 onClick={() => scrollToSection('cases')}
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-accent transition-colors"
               >
                 Cases
               </button>
               <button 
                 onClick={() => scrollToSection('contato')}
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-accent transition-colors"
               >
                 Contato
               </button>
@@ -44,7 +44,7 @@ const Footer = () => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-accent transition-colors"
               >
                 <Linkedin className="w-6 h-6" />
               </a>
@@ -52,7 +52,7 @@ const Footer = () => {
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-accent transition-colors"
               >
                 <Github className="w-6 h-6" />
               </a>
